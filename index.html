@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7d803bff65.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Economica:700 rel=" stylesheet">
+</head>
+
+<body>
+    <div class="container-body">
+        <header class="header" id="menu1">
+            <div class="header-top">
+                <div class="header-left">
+                    <img class="logo-steelers" src="S__98009126.jpg" alt="">
+                </div>
+                <div class="header-right">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <nav class="globalMenuSp">
+                        <ul>
+                            <li><a href="#menu1">トップページ</a></li>
+                            <li><a href="#menu2">チーム紹介</a></li>
+                            <li><a href="#menu3">写真</a></li>
+                            <li><a href="#menu4">YouTube</a></li>
+                            <li><a href="#menu5">SNS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <h1>Steelers</h1>
+                <h5>~WE'LL ENGRAVE A NEW HISTORY~</h5>
+            </div>
+        </header>
+        <main>
+            <section class="section-top" id="menu2">
+                <div class="section-top-head">
+                    <h2>チーム紹介</h2>
+                </div>
+                <div class="section-top-main">
+                    <div class="main-left">
+                        <img class="photo-1" src="S__24592968.jpg" alt="">
+                    </div>
+                    <div class="main-right">
+                        <h3>Steelers(スティーラーズ)</h3>
+                        <h4>草野球チーム</h4>
+                        <ul class="info">
+                            <li class="info-li">活動拠点：兵庫県加古川市</li>
+                            <li class="info-li">属性：成人（軟式）</li>
+                            <li class="info-li">チームメンバー数：２３名</li>
+                            <li class="info-li">チーム内年齢層：２２〜２８歳</li>
+                            <li class="info-li">設立：２０２１年１月</li>
+                            <li class="info-li">所属リーグ：兵庫県加古川リーグ</li>
+                            <li class="info-a"><a href="http://www.eonet.ne.jp/~a-spec/kbba.htm">兵庫県加古川リーグホームページ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="picture" id="menu3">
+                <div class="picture-top">
+                    <h2>写真</h2>
+                </div>
+                <div class="picture-middle">
+                    <div class="picture-main">
+                        <p class="img-object-fit">
+                            <img src="IMG_6813.JPG" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="S__24592967.jpg" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="S__24592966.jpg" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="IMG_6816.JPG" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="IMG_6809.JPG" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="IMG_6815.JPG" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="IMG_6811.JPG" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="IMG_6812.JPG" alt="">
+                        </p>
+                        <p class="img-object-fit">
+                            <img src="IMG_6814.JPG" alt="">
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+            <section class="facility" id="menu4">
+                <div class="facility-text">
+                    <h2>YouTube</h2>
+
+                </div>
+                <div class="facility-contents">
+                    <iframe width="560" height="300" src="https://www.youtube.com/embed/-F0DD6dAEIg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe width="560" height="300" src="https://www.youtube.com/embed/Z32Evr8SbUk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+            <div class="returu">
+                <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-top" id="menu5">
+                <ul class="contact">
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCC5HZBZBEoyJMEoC9YbChLg"><i
+                                class="fab fa-youtube"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/stee_lers111/"><i
+                                class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                <p class="footer-end">Steelers</p>
+            </div>
+        </footer>
+        <script>
+            $(function () {
+                $('.hamburger').click(function () {
+                    $(this).toggleClass('active');
+
+                    if ($(this).hasClass('active')) {
+                        $('.globalMenuSp').addClass('active');
+                    } else {
+                        $('.globalMenuSp').removeClass('active');
+                    }
+                });
+            });
+            $('.globalMenuSp a[href^="#"]').on('click', function () {
+                $('.hamburger').click();
+            });
+        </script>
+    </div>
+</body>
+
+</html>
